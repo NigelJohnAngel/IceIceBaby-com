@@ -1,0 +1,319 @@
+h2, p, button {
+    font-family: 'Fredoka One', cursive; /* Update font to Fredoka One */
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Fredoka One', cursive; /* Update font to Fredoka One */
+    background: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url('https://i.ibb.co/ZmR19nS/background.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #64113f;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url('https://i.ibb.co/Jp5rVnf/Banner.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+#banner h2,
+#banner p {
+    background-color: transparent; /* Set background color to transparent */
+}
+
+
+
+#banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#order-btn {
+    background-color: #de4d86;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#order-btn:hover {
+    background-color: #f29ca3;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#footer {
+    transition: transform 0.3s ease;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #582630;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100%);
+}
+
+#footer.visible {
+    transform: translateY(0);
+}
+.hidden {
+    display: none;
+}
+
+#menu {
+    padding: 80px 0;
+    text-align: center;
+}
+
+
+#menu h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #64113f; 
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.menu-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.item-details {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.item-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #64113f; 
+}
+
+.item-details p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #de4d86; 
+}
+
+#banner h2 span {
+    color: white; 
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    padding: 5px 10px;
+}
+
+#banner p span {
+    color: black; 
+    background-color: pink; 
+    padding: 5px 10px;
+}
+
+#menu {
+    padding: 80px 0 50px; /* Add bottom padding to create space */
+    text-align: center;
+    background-color: transparent; /* Set background color to transparent */
+}
+
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-content {
+    margin-bottom: 50px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    color: #64113f;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.staff-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.staff-member {
+    margin: 20px;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.staff-member img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.staff-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.staff-info h3 {
+    color: #64113f;
+    margin-bottom: 10px;
+}
+
+.staff-info p {
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    color: #64113f;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #64113f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #de4d86;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    color: #64113f;
+    margin-bottom: 30px;
+}
